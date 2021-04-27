@@ -1,0 +1,424 @@
+
+*{
+    padding: 0; margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* header css  starts*/
+.header{
+    background-image: url('../images/top_bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    z-index: 999;
+    overflow: hidden;
+}
+.header_shade{
+    background-color: #f1f9ff;
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100vh;
+
+}
+.header .nav-link{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    margin-left:5px;
+    margin-right:5px;
+    color: #3d2c50;
+    transition:all 0.2s linear;
+}
+.header .nav-link:hover{
+    color: #567df4;
+    letter-spacing: 2px;
+    transition:all 0.2s linear;
+}
+.header .active{
+    color: #567df4;
+    border-bottom:1px solid #567df4;
+}
+.header .white-border{
+    width:100%;
+    height:2px;
+    background-color: #efefef;
+}
+.header .title-text{
+    font-family: 'Sarabun', sans-serif;
+    font-weight: 700;
+    color:#000;
+}
+.header .img-fluid-custom{
+    max-width: 150%;
+    height:574px;
+}
+.header .text-blue{
+    color: #567df4;
+}
+.header .border-custom{
+    border-left:1px solid #656570;
+}
+/* header css ends */
+
+/* funfact css */
+.funfact{
+    background-image: url('../images/section_2_bg.png');
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 10;
+    overflow: hidden;
+}
+.funfact_shade{
+    position: absolute;
+    background-color: #5628b2;
+    top:0;
+    left:0;
+    width:100%;
+    height:40vh;
+    opacity: 0.4;
+}
+.funfact .row{
+    z-index: 999;
+}
+
+/* steps css */
+.steps{
+    margin-top:50px;
+}
+.steps .heading{
+    text-align: center;
+}
+.steps .small_heading{
+    color: #567df4;
+    font-weight: 600;
+}
+.steps .big_heading{
+    color:#242424;
+    font-weight: 700;
+}
+
+/* feature css */
+.feature{
+    background-color: #f9fdff;
+    padding-top:50px;
+}
+.feature .heading{
+    text-align: center;
+}
+.feature .small_heading{
+    color: #567df4;
+    font-weight: 600;
+}
+.feature .big_heading{
+    color:#242424;
+    font-weight: 700;
+}
+.feature .box{
+    background-color: #ffffff;
+    margin: 15px;
+    text-align: center;
+    box-shadow: 1px 2px 4px #cfcdcd;
+
+}
+
+.video{
+    padding-top:50px;
+    position: relative;
+}
+.video .video_size{
+    width:1348px;
+    height: 500px;
+}
+
+/* expertise css */
+.expertise{
+    padding:50px 0px 50px 0px;
+}
+.expertise .small_heading{
+    color: #567df4;
+    font-weight: 600;
+    margin-left:115px;
+}
+.expertise .big_heading{
+    color:#242424;
+    font-weight: 700;
+    margin-left:115px;
+}
+.expertise .position{
+    margin-left:115px;
+}
+
+/* why us css */
+.why{
+    background-image: url('../images/why_bg.png');
+    background-position: 0 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.why .big_heading{
+    color:#ffffff;
+    font-weight: 700;
+}
+.why .d-flex p{
+    margin-bottom:0rem !important;
+}
+
+/* solutions css */
+.solutions{
+    padding: 50px 0px 50px 0px;
+}
+.solutions .big_heading{
+    color:#242424;
+    font-weight: 700;
+}
+
+/* screens css */
+.screens{
+    background-color: #f9fdff;
+    padding-top:50px;
+}
+.screens .heading{
+    text-align: center;
+}
+.screens .small_heading{
+    color: #567df4;
+    font-weight: 600;
+}
+.screens .big_heading{
+    color:#242424;
+    font-weight: 700;
+}
+.screens .card{
+    background-color: transparent;
+    border:none;
+}
+.owl-fashion{
+    margin-left:-50px;
+}
+
+/* download css */
+.download{
+    padding:80px 0px 80px 0px;
+    background-image: url('../images/download_bg.png');
+    background-size: cover;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+}
+.download .big_heading{
+    font-weight: 700;
+    color:#f9fdff;
+}
+.download .tiny{
+    font-size: 12px;
+    margin-bottom:20px;
+}
+
+/* testimonial css */
+.test{
+    padding:50px 0px 50px 0px;
+    background-color: #f9fdff;
+}
+.test .heading{
+    text-align: center;
+}
+.test .small_heading{
+    color: #567df4;
+    font-weight: 600;
+}
+.test .big_heading{
+    color:#242424;
+    font-weight: 700;
+}
+.test .card{
+    padding:100px 0px 30px 0px;
+    border:none;
+    background-color: transparent;
+    position: relative;
+}
+.test .carousel-item{
+    border-radius: 30px;
+    position: relative;
+}
+.test .shadow-lg{
+    border-radius: 30px;
+}
+.test .position{
+    position: absolute;
+    top:-5%;
+    left:38%;
+}
+.test .icon-color{
+    color:#0641f5;
+}
+.test .carousel-control-next {
+    right: -250px;
+}
+.test .carousel-control-prev {
+    left: -250px;
+}
+
+/* newsletter css */
+.newsletter{
+    background-image: url('../images/you-x-ventures-BAanEbxe9No-unsplash.png');
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:80px 0px 50px 0px;
+}
+.newsletter .input-group-rounded .input-group-field {
+    border-radius: 5000px 0 0 5000px;
+    padding:10px 25px 10px 25px;
+    border:none;
+    font-size: 12px;
+  }
+  
+.newsletter .input-group-rounded .input-group-button .btn {
+    border-radius: 0 5000px 5000px 0;
+    padding:10px 25px 10px 25px;
+  }
+.input-group-field:focus{
+    outline: none;
+    box-shadow: none;
+}
+.newsletter .tiny{
+    font-size:13px;
+    color: #f9fdff;
+}
+
+/* footer  */
+.custom-footer{
+    padding:80px 0px 30px 0px;
+    background-color: #1f3c94;
+}
+.custom-footer .container{
+    border-bottom:1px solid #f9fdff;
+}
+.custom-footer .tiny{
+    font-size: 12px;
+    color:#f9fdff;
+}
+.footer-link{
+    color:#fff;
+}
+.footer-link:hover{
+    color: #567df4;
+}
+.custom-footer .tinyest{
+    font-size:10px;
+}
+
+@media screen and (min-width:426px) and (max-width:575px){
+    .header .display-4 {
+        font-size: 2.5rem !important;
+    }
+    .why{
+        padding:50px 0px 50px 0px;
+    }
+    .solution .h5, h5 {
+        font-size: 1rem !important;
+    }
+}
+@media screen and (min-width:576px) and (max-width:768px){
+    .header .display-4 {
+        font-size: 2.2rem !important;
+    }
+    .header .pl-5, .px-5 {
+        padding-left: 1rem!important;
+    }
+    
+    .header .pr-5, .px-5 {
+        padding-right: 1rem!important;
+    }
+    .header .rounded-pill{
+        font-size: 12px !important;
+    }
+    .header .rounded-pill .ml-5, .mx-5 {
+        margin-left: 2rem!important;
+    }
+    .header .mt-5, .my-5 {
+        margin-top: 2rem!important;
+    }
+    .funfact .h1, h1 {
+        font-size: 1rem !important;
+    }
+    .why{
+        padding:50px 0px 50px 0px;
+    }
+    .solution .h5, h5 {
+        font-size: 1rem !important;
+    }
+    .newsletter .w-75 {
+        width: 50%!important;
+    }
+
+}
+
+@media screen and (min-width:769px) and (max-width:991px){
+    .header .display-4 {
+        font-size: 2.2rem !important;
+    }
+    .navbar{
+        padding: 0.5rem 6rem 0.5rem 1rem !important;
+    }
+    .header .pl-5, .px-5 {
+        padding-left: 1rem!important;
+    }
+    
+    .header .pr-5, .px-5 {
+        padding-right: 1rem!important;
+    }
+    .header .rounded-pill{
+        font-size: 12px !important;
+    }
+    .header .rounded-pill .ml-5, .mx-5 {
+        margin-left: 2rem!important;
+    }
+    .header .mt-5, .my-5 {
+        margin-top: 2rem!important;
+    }
+    .funfact .h1, h1 {
+        font-size: 1rem !important;
+    }
+    .why{
+        padding:50px 0px 50px 0px;
+    }
+    .solution .h5, h5 {
+        font-size: 1rem !important;
+    }
+    .newsletter .w-75 {
+        width: 50%!important;
+    }
+
+}
+@media screen and (min-width:992px) and (max-width:1199px){
+    .header .display-4 {
+        font-size: 2.5rem !important;
+    }
+    .header .pl-5, .px-5 {
+        padding-left: 1rem!important;
+    }
+    
+    .header .pr-5, .px-5 {
+        padding-right: 1rem!important;
+    }
+    .newsletter .w-75 {
+        width: 65%!important;
+    }
+}
+@media screen and (min-width:1200px){
+    .header{
+        height: 110vh;
+    }
+    .header_shade{
+        height: 110vh;
+    }
+
+}
